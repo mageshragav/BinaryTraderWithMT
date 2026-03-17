@@ -1,0 +1,47 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "M15",
+  "timestamp": 1710691200,
+  "bid": 1.0875,
+  "ask": 1.0877,
+  "trend": {
+    "sma_20": {"value": 1.0865, "prediction": "CALL"},
+    "sma_50": {"value": 1.0850, "prediction": "CALL"},
+    "sma_200": {"value": 1.0820, "prediction": "NEUTRAL"},
+    "ema_12": {"value": 1.0870, "prediction": "CALL"},
+    "ema_26": {"value": 1.0860, "prediction": "NEUTRAL"},
+    "adx_14": {"value": 28.5, "prediction": "CALL"},
+    "plus_di": {"value": 32.1},
+    "minus_di": {"value": 18.4}
+  },
+  "momentum": {
+    "rsi_14": {"value": 58.2, "prediction": "WAIT"},
+    "stoch_k": {"value": 65.3, "prediction": "WAIT"},
+    "stoch_d": {"value": 62.1},
+    "macd_main": {"value": 0.0012, "prediction": "CALL"},
+    "macd_signal": {"value": 0.0008},
+    "macd_hist": {"value": 0.0004},
+    "cci_20": {"value": 85.6, "prediction": "WAIT"},
+    "williams_r": {"value": -35.2, "prediction": "WAIT"}
+  },
+  "volatility": {
+    "bb_upper": {"value": 1.0920},
+    "bb_middle": {"value": 1.0870},
+    "bb_lower": {"value": 1.0820},
+    "bb_signal": {"prediction": "CALL"},
+    "atr_14": {"value": 0.0045},
+    "std_dev": {"value": 0.0025}
+  },
+  "volume": {
+    "volume": {"value": 1250},
+    "obv": {"value": 125000},
+    "mfi_14": {"value": 55.8, "prediction": "WAIT"},
+    "force_index": {"value": 0.0015}
+  },
+  "price_action": {
+    "high": {"value": 1.0885},
+    "low": {"value": 1.0860},
+    "open": {"value": 1.0865},
+    "close": {"value": 1.0875}
+  }
+}

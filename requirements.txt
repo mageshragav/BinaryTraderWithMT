@@ -1,0 +1,50 @@
+# FastAPI and Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+tortoise-orm[asyncpg]==0.20.0
+aerich==0.7.2
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# ZeroMQ
+pyzmq==25.1.2
+
+# LangChain and LangGraph
+langchain==0.1.0
+langchain-core==0.1.0
+langchain-openai==0.0.2
+langchain-anthropic==0.0.3
+langgraph==0.0.15
+langchain-chroma==0.0.5
+
+# Vector Database
+chromadb==0.4.22
+
+# LLM Providers
+openai==1.7.2
+anthropic==0.8.1
+
+# Embeddings
+sentence-transformers==2.2.2
+
+# Configuration and Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.26.0
+aiofiles==23.2.1
+
+# Testing (optional)
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+
+# Development (optional)
+black==23.12.1
+ruff==0.1.11
+mypy==1.8.0
